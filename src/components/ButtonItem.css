@@ -1,0 +1,60 @@
+.boton-contenedor {
+  border-radius: 20px 0px 20px 0px;
+  margin: 10px 0px;
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+  border-bottom: 10px solid rgb(9, 8, 44);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.boton-contenedor:active {
+  animation: presionar-boton 0.2s forwards;
+}
+
+@keyframes presionar-boton {
+  100% {
+    border-bottom: 0px solid black;
+    transform: translateY(12px);
+    height: 88px;
+  }
+}
+
+.boton-top {
+  border-radius: 10px 0px 0px 0px;
+
+  margin-top: 10px;
+  background-color: rgb(190, 188, 250);
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boton-top img {
+  width: 50px;
+  height: 50px;
+}
+
+.boton-bot {
+  border-radius: 0px 0px 10px 0px;
+
+  background-color: rgb(27, 19, 139);
+  width: 80%;
+  margin-top: 4px;
+  height: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boton-bot p {
+  margin-top: 13px;
+  font-size: 14px;
+  color: white;
+  font-weight: bold;
+}

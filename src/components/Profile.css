@@ -1,0 +1,190 @@
+.menu-container {
+  height: 85vh;
+  width: 85vw;
+}
+
+.menu-top {
+  border-top: 20px solid rgb(3, 5, 37);
+  border-radius: 25% 0px 0px 0px;
+  position: relative;
+  overflow: hidden;
+  margin-top: 50px;
+  height: 40vh;
+  background-color: rgb(7, 7, 224);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.malla {
+  filter: opacity(100);
+  position: absolute;
+  top: -33px;
+  left: 0px;
+  animation-name: mallamov;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  filter: opacity(0.2);
+}
+
+@keyframes mallamov {
+  100% {
+    transform: translate(-40px, 40px);
+  }
+}
+
+.menu-bot {
+  height: 35vh;
+  background-color: rgb(189, 195, 220);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-size: 20px;
+  color: black;
+  border-radius: 0px 0px 25% 0px;
+  border-bottom: 20px solid rgb(70, 70, 116);
+}
+
+.imagen {
+  z-index: 100;
+  width: 190px;
+  animation-name: movimiento-imagen;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  transform: translatey(-10px);
+}
+
+.sombra {
+  position: absolute;
+  top: 170px;
+  width: 130px;
+  filter: opacity(0.7);
+}
+
+@keyframes movimiento-imagen {
+  50% {
+    transform: translatey(10px);
+  }
+  100% {
+    transform: translatey(-10px);
+  }
+}
+
+.menu-mid {
+  height: 7vh;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.boton-izquierda {
+  height: 100%;
+  width: 70px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.flecha-izquierda {
+  filter: invert() opacity(0.8);
+  height: 100%;
+  scale: 0.5;
+  transform: scale(-1);
+}
+
+.flecha-izquierda:active {
+  filter: invert() brightness(100);
+}
+
+.titulo {
+  font-size: 26px;
+  color: white;
+  font-weight: bold;
+}
+
+.boton-derecha {
+  height: 100%;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+.flecha-derecha {
+  filter: invert() opacity(0.8);
+  height: 100%;
+  scale: 0.5;
+}
+
+.flecha-derecha:active {
+  filter: invert() brightness(100);
+}
+
+body {
+  background-color: rgb(8, 13, 80) !important;
+}
+
+.boton-flotante {
+  z-index: 300;
+  position: absolute;
+  top: 90px;
+  right: 10px;
+  width: 100px;
+  height: 45px;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px 0px 10px 0px;
+  border-top: 3px solid rgb(186, 183, 219);
+}
+
+.boton-flotante2 {
+  z-index: 300;
+  position: absolute;
+  top: 100px;
+  left: 40px;
+  width: 70px;
+  height: 45px;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px 0px 10px 0px;
+}
+
+.boton-flotante3 {
+  z-index: 300;
+  position: absolute;
+  top: 300px;
+  left: 40px;
+  width: 70px;
+  height: 45px;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px 0px 10px 0px;
+}
+
+.profile-container {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.4s ease;
+}
+
+.profile-container.active {
+  opacity: 1;
+  transform: translateY(0);
+}
