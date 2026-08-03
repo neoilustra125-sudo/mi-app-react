@@ -1,4 +1,4 @@
-import "./Buttonitem.css";
+import "./ButtonItem.css";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 import clickSound from "../assets/sonido_1.wav";
