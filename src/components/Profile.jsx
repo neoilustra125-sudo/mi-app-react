@@ -1,5 +1,7 @@
 import "./Profile.css";
-import flechaImg from "../assets/flecha.png";
+import flechaImgizq from "../assets/flecha_izq.png";
+import flechaImgder from "../assets/flecha_der.png";
+
 import sombra from "../assets/sombra.png";
 import malla from "../assets/malla.png";
 
@@ -78,13 +80,13 @@ function Profile({ data, items }) {
 
             <div className="menu-mid">
               <div className="boton-izquierda" onClick={goPrev}>
-                <img className="flecha-izquierda" src={flechaImg} alt="" />
+                <img className="flecha-izquierda" src={flechaImgizq} alt="" />
               </div>
 
               <div className="titulo">{data.title}</div>
 
               <div className="boton-derecha" onClick={goNext}>
-                <img className="flecha-derecha" src={flechaImg} alt="" />
+                <img className="flecha-derecha" src={flechaImgder} alt="" />
               </div>
             </div>
 
