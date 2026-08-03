@@ -12,6 +12,7 @@ import img9 from '../assets/item_10.png';
 import img10 from '../assets/item_11.png';
 import img11 from '../assets/item_12.png';
 import img12 from '../assets/item_13.png';
+import img13 from '../assets/item_14.png';
 
 
 
@@ -121,10 +122,10 @@ export const items = [
   },
   {
     id: 13,
-    title: "No Data",
-    img: img,
-    description: "",
-    artist: ''
+    title: "Dona",
+    img: img13,
+    description: "Dona con cubierto de chocolate para deleitar tu paladar",
+    artist: 'Nayu'
 
   },
   {
