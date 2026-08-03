@@ -104,9 +104,9 @@ export const items = [
   },
   {
     id: 11,
-    title: "Peluche",
+    title: "Coquita",
     img: img11,
-    description: "Peluche de Monzaemon",
+    description: "Una coquita bien fria para aliviar la sed",
     artist: 'Kaizo'
 
   },
