@@ -99,7 +99,7 @@ export const items = [
     title: "Crayones",
     img: img10,
     description: "¡Saquen los crayones!",
-    artist: ''
+    artist: 'Nayu'
 
   },
   {
@@ -107,7 +107,7 @@ export const items = [
     title: "Peluche",
     img: img11,
     description: "Peluche de Monzaemon",
-    artist: ''
+    artist: 'Kaizo'
 
   },
   {
