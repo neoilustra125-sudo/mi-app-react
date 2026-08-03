@@ -11,6 +11,7 @@ import img8 from '../assets/item_9.png';
 import img9 from '../assets/item_10.png';
 import img10 from '../assets/item_11.png';
 import img11 from '../assets/item_12.png';
+import img12 from '../assets/item_13.png';
 
 
 
@@ -112,10 +113,10 @@ export const items = [
   },
   {
     id: 12,
-    title: "No Data",
-    img: img,
-    description: "",
-    artist: ''
+    title: "Bola Ocho",
+    img: img12,
+    description: "Bola de la suerte que lleva en el centro el simbolo del infinito",
+    artist: 'Kaizo'
 
   },
   {
