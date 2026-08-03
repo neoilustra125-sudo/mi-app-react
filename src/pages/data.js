@@ -9,6 +9,9 @@ import img6 from '../assets/item_7.png';
 import img7 from '../assets/item_8.png';
 import img8 from '../assets/item_9.png';
 import img9 from '../assets/item_10.png';
+import img10 from '../assets/item_11.png';
+import img11 from '../assets/item_12.png';
+
 
 
 export const items = [
@@ -93,17 +96,17 @@ export const items = [
   },
   {
     id: 10,
-    title: "No Data",
-    img: img,
-    description: "",
+    title: "Crayones",
+    img: img10,
+    description: "¡Saquen los crayones!",
     artist: ''
 
   },
   {
     id: 11,
-    title: "No Data",
-    img: img,
-    description: "",
+    title: "Peluche",
+    img: img11,
+    description: "Peluche de Monzaemon",
     artist: ''
 
   },
