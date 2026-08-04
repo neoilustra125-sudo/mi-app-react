@@ -22,13 +22,21 @@ function Profile({ data, items }) {
   }, [data.id]);
 
   const handleClose = () => {
-    setShow(false);
-    audio.currentTime = 0; // reinicia si se repite rápido
-    audio.play();
-    setTimeout(() => {
-      navigate("/");
-    }, 400); // mismo tiempo que tu CSS
-  };
+  setShow(false);
+
+  const audio = new Audio(clickSound);
+
+  audio.play();
+
+  setTimeout(() => {
+    const audio2 = new Audio(clickSound);
+    audio2.play();
+  }, 200); // pequeño delay entre sonidos
+
+  setTimeout(() => {
+    navigate("/");
+  }, 400);
+};
   const navigate = useNavigate();
 
   const currentIndex = items.findIndex((i) => i.id === data.id);

@@ -13,6 +13,9 @@ import img10 from '../assets/item_11.png';
 import img11 from '../assets/item_12.png';
 import img12 from '../assets/item_13.png';
 import img13 from '../assets/item_14.png';
+import img14 from '../assets/item_15.png';
+import img15 from '../assets/item_16.png';
+import img16 from '../assets/item_17.png';
 
 
 
@@ -130,26 +133,26 @@ export const items = [
   },
   {
     id: 14,
-    title: "No Data",
-    img: img,
-    description: "",
-    artist: ''
+    title: "Brillos",
+    img: img14,
+    description: "Este objeto resplende una energia pura",
+    artist: 'Nayu'
 
   },
   {
     id: 15,
-    title: "No Data",
-    img: img,
-    description: "",
-    artist: ''
+    title: "Queso",
+    img: img15,
+    description: "El raton que aparecio en la casa de la Nayu encontro lo que buscaba",
+    artist: 'Kaizo'
 
   },
   {
     id: 16,
-    title: "No Data",
-    img: img,
-    description: "",
-    artist: ''
+    title: "Espejo",
+    img: img16,
+    description: "Espejito espejito, ¿quien es la mas linda?",
+    artist: 'Nayu'
 
   },
   {
