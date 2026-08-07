@@ -16,6 +16,7 @@ import img13 from '../assets/item_14.png';
 import img14 from '../assets/item_15.png';
 import img15 from '../assets/item_16.png';
 import img16 from '../assets/item_17.png';
+import img17 from '../assets/item_18.png';
 
 
 
@@ -157,10 +158,10 @@ export const items = [
   },
   {
     id: 17,
-    title: "No Data",
-    img: img,
-    description: "",
-    artist: ''
+    title: "Caracola",
+    img: img17,
+    description: "Lo que queda de un caracol gigante",
+    artist: 'Kaizo'
 
   },
   {
