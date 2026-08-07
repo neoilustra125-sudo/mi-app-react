@@ -17,6 +17,7 @@ import img14 from '../assets/item_15.png';
 import img15 from '../assets/item_16.png';
 import img16 from '../assets/item_17.png';
 import img17 from '../assets/item_18.png';
+import img18 from '../assets/item_19.png';
 
 
 
@@ -165,11 +166,11 @@ export const items = [
 
   },
   {
-    id: 18,
-    title: "No Data",
-    img: img,
-    description: "",
-    artist: ''
+    id: 19,
+    title: "Poción",
+    img: img18,
+    description: "Poción que quita todos los malestares",
+    artist: 'Kaizo'
 
   },
   {
