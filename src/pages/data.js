@@ -174,14 +174,6 @@ export const items = [
 
   },
   {
-    id: 19,
-    title: "No Data",
-    img: img,
-    description: "",
-    artist: ''
-
-  },
-  {
     id: 20,
     title: "No Data",
     img: img,
