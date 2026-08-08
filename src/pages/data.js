@@ -18,6 +18,7 @@ import img15 from '../assets/item_16.png';
 import img16 from '../assets/item_17.png';
 import img17 from '../assets/item_18.png';
 import img18 from '../assets/item_19.png';
+import img19 from '../assets/item_20.png';
 
 
 
@@ -175,10 +176,10 @@ export const items = [
   },
   {
     id: 20,
-    title: "No Data",
-    img: img,
-    description: "",
-    artist: ''
+    title: "Meteoro",
+    img: img19,
+    description: "Objeto extraterrestre caido desde los cielos'",
+    artist: 'Kaizo'
 
   },
   {
